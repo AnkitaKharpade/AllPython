@@ -6,7 +6,5 @@ c=a+b
 print(c)
 
 
-print("c")
-
-
-type(a)
+s="Ankita"
+type(s)
