@@ -27,3 +27,9 @@ a=30
 a=40
 a=50
 print(a)
+# it takes latest value
+
+a=10
+b=10
+print(id(a))
+print(id(b))
