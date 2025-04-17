@@ -7,6 +7,18 @@ print(c)
 
 
 s="Ankita"
-type(s)
+print(type(s))
 
-1+2
+print(1+2)
+
+print(6*4)
+
+A=10
+print(A)
+
+
+a=20
+print(a)
+
+print(A)
+print(a)
