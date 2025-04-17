@@ -8,3 +8,5 @@ print(c)
 
 s="Ankita"
 type(s)
+
+1+2
