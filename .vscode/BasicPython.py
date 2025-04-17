@@ -22,3 +22,8 @@ print(a)
 
 print(A)
 print(a)
+
+a=30
+a=40
+a=50
+print(a)
