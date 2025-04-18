@@ -49,3 +49,15 @@ a,b,c=12,34,56
 print(b)
 b=78
 print(a,b,c)
+
+
+'''Hi all
+good afternoon
+today march 1st but not thursday'''
+
+
+'''Hi all
+good afternoon
+today march 1st but not thursday'''
+a=10
+print(a)
