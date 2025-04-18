@@ -70,6 +70,10 @@ print(a+b)
 print(a-b)
 print(a/b)
 print(a*b)
-print(a//b)
+print(a//b) #floor division
 print(a%b)
 print(a**b)
+
+
+a="Ankita"
+print(a[::-1])
