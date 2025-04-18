@@ -74,7 +74,9 @@ print(a//b) #floor division
 print(a%b)
 print(a**b)
 
-##Write a program to Print the Reverse of a string where my input is Ankita Output has to be atiknA
+
+'String'
+#Write a program to Print the Reverse of a string where my input is Ankita Output has to be atiknA
 a="Ankita"
 print(a[::-1])
 
