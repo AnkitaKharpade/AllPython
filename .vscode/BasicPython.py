@@ -95,12 +95,32 @@ print(a[::-1]) #Reverse
 print(a[::2])
 print(a[0:3000])
 
-a="Akshay"
+'''a="Akshay"
 a="ankitha"
 a[0]="S"
-a
+a'''
 
 #Strings are immutable we cant change particular value of a string 
+
+
+#2notebook
+
+print("Good Afternoon")
+
+a=10
+b=20
+c=a+b
+print(c)
+
+a=10
+b=20
+c=a+b
+print("Addition=",c)
+
+a=10
+b=20
+c=a+b
+print("Addition of a=",a,"and b=",b,"is c=",c)
 
 
 
