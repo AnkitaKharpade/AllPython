@@ -61,3 +61,15 @@ good afternoon
 today march 1st but not thursday'''
 a=10
 print(a)
+
+
+#Numerical operation
+a=10
+b=5
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+print(a//b)
+print(a%b)
+print(a**b)
