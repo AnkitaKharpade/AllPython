@@ -100,6 +100,7 @@ a="ankitha"
 a[0]="S"
 a
 
+#Strings are immutable we cant change particular value of a string 
 
 
 
