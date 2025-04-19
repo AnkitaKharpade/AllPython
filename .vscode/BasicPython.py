@@ -122,6 +122,11 @@ b=20
 c=a+b
 print("Addition of a=",a,"and b=",b,"is c=",c)
 
+a=10
+b=20
+c=a+b
+print("Additional of a={0}, and b={1}, and c={2}".format(a,b,c))
+
 
 
 
