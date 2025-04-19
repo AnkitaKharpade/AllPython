@@ -127,6 +127,43 @@ b=20
 c=a+b
 print("Additional of a={0}, and b={1}, and c={2}".format(a,b,c))
 
+myvar="Ankita"
+print(myvar)
+
+a=b=c=d="orange"
+print(a)
+
+a="python"
+b="is"
+c="awesome"
+print(a+b+c)
+
+#type casting
+a='5'
+b="ankita"
+print(a+b)
+
+print(int(35.67))
+
+a="Ankita"
+print(len(a))
+
+x="Welcome"
+print(x[3])
+
+a="The Best book in the world is written by JK Rowling"
+print("Book" not in a)
+
+a="ankita"
+print(a.upper())
+
+a="ANKITA"
+print(a.lower())
+
+a="         a n  k  i  t  a       "
+print(a.strip())
+
+
 
 
 
