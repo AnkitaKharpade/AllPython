@@ -195,9 +195,10 @@ c = 9
 # Display output
 print(f"a={a} b={b} c={c}\n\neg 2 a=2 b=2 c=4")
 
-
+#in oneline code
 print("a=3 b=2 c=9\n\neg a=2 b=2 c=4")
 
+#anotherEx
 print("a=4 b=5 c=10\n\neg a=10 b=20 c=40")
 
 
