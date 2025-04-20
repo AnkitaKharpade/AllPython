@@ -160,10 +160,27 @@ print(a.upper())
 a="ANKITA"
 print(a.lower())
 
+#to remove unwanted Spaces at begining and Ending is Strip 
 a="         a n  k  i  t  a       "
 print(a.strip())
 
+#Replace function
+a="Ankita"
+print(a.replace("a","Z"))
 
+a="Ankta&Ashokrao&Kharpade"
+print(a.split("&"))
+
+#Anagram? #An anagram is when we rearrange the letters of one word to form another word.
+from collections import Counter
+a="AnkitaAshokraoKharpade"
+b=Counter(a)
+print(b)
+
+from collections import Counter
+a=input("Enter the name apart from charan any name is okay")
+b=Counter(a)
+print(b)
 
 
 
