@@ -182,6 +182,12 @@ a=input("Enter the name apart from charan any name is okay")
 b=Counter(a)
 print(b)
 
+#Swapcase=##reverse what ever in caps to small and Viceversia
+a="AshoKraoKharPade"
+b=a.swapcase()
+print(b)
+
+
 
 
 
