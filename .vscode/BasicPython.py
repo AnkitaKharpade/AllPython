@@ -226,6 +226,13 @@ else:
 X=5 
 print("hai Bro") if x<5 else print("Bye Bro")
 
+a=300
+b=200
+if b>a:
+    pass
+else:
+    print("fail")
+
 
 
 
