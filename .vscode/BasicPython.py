@@ -233,6 +233,29 @@ if b>a:
 else:
     print("fail")
 
+#Conditional Statements 
+#conditionals statement are if elif else
+#conditionals statement is control the flow of a program based on conditions
+#If statement: the basic conditional statement that determines if a block of code should be executed
+#If-else statement:Controls the flow of execution based on a condition.
+#If-elif-else statement:Evaluates multiple cindition sequentially and executes different blocks of code.
+#Nested if statement:Checks for a secondary condition if the first condition executes as true.
+
+'''if statement: true
+
+    if statement2 : true
+    
+         if statement3 : true
+         else3:
+         statement3 will be print
+    
+    else2:
+    statement2 is print
+else: statement is print'''
+
+
+
+
 
 
 
