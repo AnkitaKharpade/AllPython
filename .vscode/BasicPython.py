@@ -211,6 +211,22 @@ print(a>=b)
 print(a<b)
 print(a<=b)
 
+#Boolean values
+#true and False
+print(10<=10)
+
+#Conditionals
+
+x=5
+if x<5:
+    print("Hai Bro")
+else:
+    print("Bye Bro")
+
+X=5 
+print("hai Bro") if x<5 else print("Bye Bro")
+
+
 
 
 
