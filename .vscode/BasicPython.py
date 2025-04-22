@@ -254,6 +254,14 @@ else:
 else: statement is print'''
 
 
+mymoney=int(input())
+price=int(input())
+if price<=mymoney:
+    print("I can able to buy")
+else:
+    print("I can't buy")
+
+
 
 
 
