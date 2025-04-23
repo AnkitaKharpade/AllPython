@@ -310,6 +310,26 @@ if mobile_no==int(input("Enter your mobile number")):
 else:
     print("You are not a Registered user")
 
+sum=10
+def cal():
+    sum=30
+    sum=sum+20
+    current_Sum=200
+    totalsum=sum+current_Sum
+    print(totalsum)
+cal();
+print(sum)
+
+sum=10
+def cal():
+    global sum
+    sum=sum+20
+    current_Sum=200
+    totalsum=sum+current_Sum
+    print(totalsum)
+cal();
+print(sum)
+
 
 
 
