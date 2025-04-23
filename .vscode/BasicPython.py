@@ -261,6 +261,32 @@ if price<=mymoney:
 else:
     print("I can't buy")
 
+a=500
+shirt_price=200
+pant_price=500
+coat_price=800
+my_size='L'
+size_Store=['M','L','S','XS','XXL']
+my_Fav_Color='Black'
+store_clr=["Whte",'red','Black','Orange']
+if coat_price <=a:
+    print("I will buy a coat")
+elif pant_price<a:
+    print("I will buy a pant")
+elif shirt_price<a:
+    print("I will buy a shirt")
+    if my_size in size_Store:
+        print("I can continue my shoppping")
+        if my_Fav_Color in store_clr:
+            print("I will choose my fav")
+        else:
+            print("Bye I am not going to Buy in this")
+    else:
+        print("My size is not available")
+else:
+    print("I won't buy")
+    
+
 
 
 
