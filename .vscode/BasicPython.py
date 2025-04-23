@@ -286,6 +286,29 @@ elif shirt_price<a:
 else:
     print("I won't buy")
     
+course=['DSM','DSA','JAVA',"python"]
+price=30000
+mentor="charan"
+if "python" in course and price<=40000 and "charan"==mentor:
+    print("I will buy")
+
+user_name="charan"
+password="omsairam"
+if user_name==input("Enter your username") and password==input("Enter your password"):
+    print("You have logged in Successfully")
+else:
+    print("Enter correct name and password")
+
+mobile_no=9848022338
+otp=9877
+if mobile_no==int(input("Enter your mobile number")):
+    print("You are registered user")
+    if otp==int(input("Enter the otp sent to your Mobbile no")):
+        print("You have logged in Successfully")
+    else:
+        print("incorrect OTP please Re enter Again correctly")
+else:
+    print("You are not a Registered user")
 
 
 
