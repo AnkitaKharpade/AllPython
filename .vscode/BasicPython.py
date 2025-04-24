@@ -356,6 +356,33 @@ def cal():
 cal();
 print(sum)
 
+num = int(input("Enter a number"))
+if num>0:
+    print("the number is",num)
+    if num%2==0:
+        print(f"Entered Number {num} is an even number")
+    else:
+        print("Entered number is {num} is odd number")
+else:
+    print("Entered number is not a number")
+
+ sum=10
+def cal():
+    global sum
+    sum=sum+20
+    current_Sum=200
+    totalsum=sum+current_Sum
+    print(totalsum)
+cal();
+print(sum)
+
+a = ["Python","Java","C++"]
+a.reverse()
+print(a)
+
+d = "Ankita"[::-1]
+print(d)
+
 
 
 
