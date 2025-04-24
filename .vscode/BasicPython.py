@@ -330,6 +330,32 @@ def cal():
 cal();
 print(sum)
 
+mobile_no={9848022338,9888888888,8464808080}
+otp=9877
+if int(input("Enter your mobile no")) in mobile_no:
+    print("You are registered user")
+    if otp==int(input("Enter the otp sent to your Mobbile no")):
+        print("You have logged in Successfully")
+    else:
+        print("incorrect OTP please Re enter Again correctly")
+else:
+    print("You are not a Registered user")
+
+
+#Reverse of A string
+a="python"[::-1]
+print(a)
+
+sum=10
+def cal():
+    #global sum
+    sum=sum+20
+    current_Sum=200
+    totalsum=sum+current_Sum
+    print(totalsum)
+cal();
+print(sum)
+
 
 
 
