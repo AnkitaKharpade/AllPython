@@ -433,6 +433,8 @@ list(range(0,7))
 
 tuple(range(5,15))
 
+set(range(1,4))
+
 
 
 
