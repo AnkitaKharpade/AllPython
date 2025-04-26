@@ -429,6 +429,11 @@ print(range(0,5))
 
 list(range(0,5))
 
+list(range(0,7))
+
+tuple(range(5,15))
+
+
 
 
 
