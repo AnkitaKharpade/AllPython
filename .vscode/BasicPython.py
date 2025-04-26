@@ -387,6 +387,19 @@ s={1,2,3,4,5}
 for i in s:
     print(i)
 
+t=(12,3,4,45,"Sudha","Charan")
+t_int=[]
+t_str=[]
+for i in t:
+    if type(i)==str:
+        t_str.append(i)
+    elif type(i)==int:
+        t_int.append(i)
+
+t_int
+t_str
+
+
 
 
 
