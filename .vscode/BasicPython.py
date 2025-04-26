@@ -399,6 +399,16 @@ for i in t:
 t_int
 t_str
 
+a=int(input("enter a number a:"))
+b=int(input("enter a number b:"))
+c=int(input("enter a number c:"))
+if a>c and a>b:
+    print(a,"is the largest")
+elif b>c and b>a:
+    print(b,"is the largest")
+else:
+    print(c,"is the largest")
+
 
 
 
