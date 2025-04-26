@@ -410,6 +410,20 @@ else:
     print(c,"is the largest")
 
 
+my_mood=["Happy","SAD",'Angry']
+a=input("Enter your mood")
+if a in my_mood:
+    print("Cinema ku podam")
+    if a=="Happy":
+        print("I will go to Sekhar kamula movie")
+    elif a=="Sad":
+        print("I will go to Sandeep Reddy Vanga Movie")
+    else:
+        print("I will go to RGV movie")
+else:
+    print("Noru muskoni chadvuko")
+
+
 
 
 
