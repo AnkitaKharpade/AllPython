@@ -423,6 +423,8 @@ if a in my_mood:
 else:
     print("Noru muskoni chadvuko")
 
+range(5)
+
 
 
 
