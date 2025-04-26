@@ -383,6 +383,10 @@ print(a)
 d = "Ankita"[::-1]
 print(d)
 
+s={1,2,3,4,5}
+for i in s:
+    print(i)
+
 
 
 
