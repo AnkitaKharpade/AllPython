@@ -366,7 +366,7 @@ if num>0:
 else:
     print("Entered number is not a number")
 
- sum=10
+sum=10
 def cal():
     global sum
     sum=sum+20
@@ -436,6 +436,8 @@ tuple(range(5,15))
 set(range(1,4))
 
 list(range(2,12,2))
+
+list(range(5,10))
 
 
 
