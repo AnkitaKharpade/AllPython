@@ -443,6 +443,17 @@ list(tuple(range(3,8)))
 
 #Loops= Loop is used to execute a group of instructions 
 # or a block of code multiple times, without writing it repeatedly.
+#Loops for and while are 2 loops
+
+# print first 10 natural Numbers
+for i in range(1,11):
+    print(i,end=' ')
+
+for i in range(1,100):
+    print(i,end=' ')
+
+for i in range(1,6):
+    print(i,end=" ")
 
 
 
