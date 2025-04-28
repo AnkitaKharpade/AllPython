@@ -455,6 +455,14 @@ for i in range(1,100):
 for i in range(1,6):
     print(i,end=" ")
 
+list(range(1,6))
+
+for i in "Ankita":
+    print(i)
+
+for x in ['a','b','c']:
+    print(x)
+
 
 
 
