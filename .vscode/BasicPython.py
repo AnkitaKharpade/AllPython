@@ -441,6 +441,11 @@ list(range(5,10))
 
 list(tuple(range(3,8)))
 
+#Loops= Loop is used to execute a group of instructions 
+# or a block of code multiple times, without writing it repeatedly.
+
+
+
 
 
 
