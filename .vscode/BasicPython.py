@@ -463,6 +463,17 @@ for i in "Ankita":
 for x in ['a','b','c']:
     print(x)
 
+for i in (1,2,3,4):
+    print(i)
+
+z={'name':"charan",'city':"Bangalore","Profession":"Director"}
+for i in z.values():
+    print(i)
+
+z={'name':"charan",'city':"Bangalore","Profession":"Director"}
+for i in z.items():
+    print(i)
+
 
 
 
