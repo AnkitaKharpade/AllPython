@@ -479,7 +479,9 @@ for i in z.keys():
     print(i)
 
 # WAP to itterate over a list where list contains 4 countries named india,australia,USA,UK 
-
+Country=['India','Australia','USA','UK']
+for i in Country:
+    print(i)
 
 
 
