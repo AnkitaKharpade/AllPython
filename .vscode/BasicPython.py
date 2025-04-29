@@ -474,6 +474,12 @@ z={'name':"charan",'city':"Bangalore","Profession":"Director"}
 for i in z.items():
     print(i)
 
+z={'name':"charan",'city':"Bangalore","Profession":"Director"}
+for i in z.keys():
+    print(i)
+
+# WAP to itterate over a list where list contains 4 countries named india,australia,USA,UK 
+
 
 
 
