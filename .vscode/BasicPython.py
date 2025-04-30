@@ -483,6 +483,11 @@ Country=['India','Australia','USA','UK']
 for i in Country:
     print(i)
 
+for i in range(5):
+    print(i)
+else:
+    print("Hello bro")
+
 
 
 
