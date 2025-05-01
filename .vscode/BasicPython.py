@@ -512,6 +512,19 @@ for i in range(1,6):
         print(i*j,end='  ')
         print()
 
+#Print first 10 nayural numbers
+for i in range(1,11):
+    print(i,end=" ")
+
+# While loop:A while loop in Python repeatedly executes a block of code as long as 
+# a specified condition remains true.
+count=1
+while count<=10:
+    print(count)
+    count=count+1
+
+
+
 
 
 
