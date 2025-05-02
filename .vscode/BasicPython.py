@@ -561,6 +561,15 @@ a,b,c,=input("Enter three numbers")
 d=int(a)+int(b)+int(c)
 print(d)
 
+for i in range(5):
+    print(i,end=" ")
+
+# I want to end this program when my I value is going to be three
+for i in range(5):
+    if i ==3:
+        break
+    print(i)
+
 
 
 
