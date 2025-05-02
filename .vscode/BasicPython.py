@@ -535,6 +535,23 @@ while text!="quit":
         text=input("Enter a word")
         print("You entered",text)
 
+movie=' '
+while movie!="Bangaloredays":
+    movie=input("Guess tharun fav movie")
+    print("Tharun's favourite movie is",movie)
+
+num=0
+if num>0:
+    print("positive number")
+elif num==0:
+    print("Zero")
+else:
+    print("Negative Number")
+print("Hello all Welcome to my world")
+
+text="I love python"
+text.split()
+
 
 
 
