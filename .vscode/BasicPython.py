@@ -586,6 +586,34 @@ for i in numbers:
     if i<100:
         print(i)
 
+for i in "Ankitha":
+    if i =='a':
+        break
+    print("letter",i)
+
+i=1
+while i<=20:
+    print(i)
+    if i>=15:
+        break
+    i+=1
+
+S="Hello World"
+for i in S:
+    print(i)
+    if i==' ':
+        break
+
+A="Ankitha,USA"
+for i in A:
+    print(i)
+    if i==",":
+        break
+
+#Continue
+for i in range(5):
+    print(i,end=' ')
+
 
 
 
