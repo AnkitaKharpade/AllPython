@@ -552,6 +552,10 @@ print("Hello all Welcome to my world")
 text="I love python"
 text.split()
 
+a,b=input("Enter two numbers")
+c=int(a)+int(b)
+print(c)
+
 
 
 
