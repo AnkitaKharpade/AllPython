@@ -634,8 +634,33 @@ for i in "Charan":
         break
     print(i)
 
+#for Loop
+for i in range(11):
+    if i==10:
+        break
+    print(i)
 
+for i in range(1,11):
+    if i%2==0:
+        continue
+    print(i)
 
+i = 1
+while i <= 10:
+    if i % 2 == 0:
+        i += 1  
+        continue  
+    print(i)
+    if i == 9:
+        break  
+    i += 1  
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1  # Move increment before continue
+    if i % 2 == 0:
+        continue
 
 
 
