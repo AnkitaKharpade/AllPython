@@ -556,6 +556,11 @@ a,b=input("Enter two numbers")
 c=int(a)+int(b)
 print(c)
 
+# Wap to Take 3 inputs in one go and do a multiplication 
+a,b,c,=input("Enter three numbers")
+d=int(a)+int(b)+int(c)
+print(d)
+
 
 
 
