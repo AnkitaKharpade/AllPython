@@ -523,6 +523,17 @@ while count<=10:
     print(count)
     count=count+1
 
+Count=1
+while Count<=10:
+    print(Count)
+    Count+=1
+
+# Game with while loop
+
+text=' '
+while text!="quit":
+        text=input("Enter a word")
+        print("You entered",text)
 
 
 
