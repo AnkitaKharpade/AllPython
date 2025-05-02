@@ -570,6 +570,22 @@ for i in range(5):
         break
     print(i)
 
+for i in "mamatha":
+    if i=='t':
+        break
+    print(i)
+
+numbers=[10,20,30,40,120,230]
+for i in numbers:
+    if i>100:
+        break
+    print(i)
+
+numbers=[10,20,30,40,120,230]
+for i in numbers:
+    if i<100:
+        print(i)
+
 
 
 
