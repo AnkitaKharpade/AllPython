@@ -614,7 +614,25 @@ for i in A:
 for i in range(5):
     print(i,end=' ')
 
+for i in range(5):
+    if i ==3:
+        break
+    print(i)
 
+for i in range(5):
+    if i ==3:
+        continue 
+    print(i)
+# Continue will skip that particular itteration
+for i in "Charan":
+    if i=="h":
+        continue
+    print(i)
+
+for i in "Charan":
+    if i=="h":
+        break
+    print(i)
 
 
 
