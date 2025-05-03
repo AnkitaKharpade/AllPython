@@ -689,7 +689,38 @@ print(arr)
 print(type(arr))
 print(arr.dtype) # dtype is not a function, its an attribute
 
+arr = np.array([1,3,4,5,6] , dtype='float')
+print(arr)
+print(type(arr))
+print(arr.dtype) # dtype is not a function, its an attribute
 
+arr = np.array([1,3,4,5,'Charan',2-9j,32.])
+print(arr)
+print(type(arr))
+print(arr.dtype) # dtype is not a function, its an attribute
+
+arr = np.array([1,3,4,0,0,5,6.])
+print(arr)
+print(np.sum(arr))
+print(np.mean(arr))
+print(np.min(arr))
+print(np.max(arr))
+print(np.median(arr))
+print(np.quantile(arr,.25))
+print(np.quantile(arr,.34))
+print(np.count_nonzero(arr))
+
+
+arr = np.array([
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+])
+print(arr)
+print()
+print(arr[0][0])
+print(arr[0][1])
+print(arr[2][0])
 
 
 
