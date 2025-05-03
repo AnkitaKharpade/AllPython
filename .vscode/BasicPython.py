@@ -655,12 +655,32 @@ while i <= 10:
         break  
     i += 1  
 
+
 i = 1
 while i <= 10:
     print(i)
     i += 1  # Move increment before continue
     if i % 2 == 0:
         continue
+
+
+#libraries in Python
+'''Numpy
+Numpy is the backbone of Machine learning in python.
+
+It is one of the most important libraries in Python for numerical computations.
+
+They are arrays i.e. they stores a set of values, all of the same datatype.
+
+It supports fast vectorized operations.
+
+Numpy consists of 2 parts:
+
+ndarray: n-dimensional array
+
+Ufunc: Universal functions'''
+
+import numpy as np
 
 
 
