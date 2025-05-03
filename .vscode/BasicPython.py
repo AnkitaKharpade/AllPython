@@ -682,6 +682,14 @@ Ufunc: Universal functions'''
 
 import numpy as np
 
+np.__version__
+
+arr = np.array([1,3,4,5,6])
+print(arr)
+print(type(arr))
+print(arr.dtype) # dtype is not a function, its an attribute
+
+
 
 
 
