@@ -749,6 +749,8 @@ np.identity(3,dtype=int)
 
 np.identity(1)
 
+np.random.randn(3,4)
+
 
 
 
