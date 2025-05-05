@@ -722,6 +722,11 @@ print(arr[0][0])
 print(arr[0][1])
 print(arr[2][0])
 
+arr = np.array([1,3,4,5,6] , dtype='str')
+print(arr)
+print(type(arr))
+print(arr.dtype) 
+
 
 
 
