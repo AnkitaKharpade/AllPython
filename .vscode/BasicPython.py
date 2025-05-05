@@ -727,6 +727,19 @@ print(arr)
 print(type(arr))
 print(arr.dtype) 
 
+import numpy as np
+arr=np.zeros([2,4])
+arr
+
+arr=np.zeros([3,3],dtype=int)
+arr
+
+arr=np.ones([3,3],dtype=int)
+arr
+
+arr=np.ones([2,4])
+arr
+
 
 
 
