@@ -751,6 +751,29 @@ np.identity(1)
 
 np.random.randn(3,4)
 
+range(5)
+
+for i in range(5):
+    print(i,end=' ')
+
+np.arange(5)
+
+np.arange(12)
+
+arr=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(arr)
+print(arr.shape)
+
+arr=np.array([10,20,30,40,50])
+print(arr)
+print(arr.shape)
+
+t=(1)
+type(t)
+
+g=(1,)
+type(g)
+
 
 
 
