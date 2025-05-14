@@ -774,6 +774,11 @@ type(t)
 g=(1,)
 type(g)
 
+arr=np.reshape(12)
+print(arr)
+print(arr.shape)
+print("1D or 2D",np.ndim(arr))
+
 
 
 
