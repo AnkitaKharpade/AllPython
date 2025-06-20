@@ -779,6 +779,10 @@ print(arr)
 print(arr.shape)
 print("1D or 2D",np.ndim(arr))
 
+arr=np.arange(12).reshape(6,2)
+print(arr)
+print(arr.shape)
+print("1D or 2D",np.ndim(arr))
 
 
 
